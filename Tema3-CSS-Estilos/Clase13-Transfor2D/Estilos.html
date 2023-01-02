@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Propiedades CSS - Tamaños</title>
+    <style>
+        .contenedor{
+            width: 300px;
+            margin: auto;
+            margin-top: 50px;
+        }
+        .contenedor img{
+            width: 100%;
+            box-shadow: gray 5px 5px 5px;
+
+        }
+        /*hover es para cuando se pase el mouse encima*/
+        .contenedor img:hover{
+            width: 100%;
+            box-shadow: gray 5px 5px 5px;
+            /*Escalar imagen
+            transform: scale(x,y);
+            Para escalar un eje
+            transform: scaleX(valor) o scaleY(valor);*/
+            /*Rotar imagen dependiendo del angulo
+            transform: rotate(valordeg);*/
+            /*Inclinacion
+            transform: skew();*/
+            /*Desplazar elementos
+            transform: translate(xx,y);*/
+            transform: translate(5px,-100px);
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <img src="src/html.jfif" alt="">
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Propiedades CSS - Tamaños</title>
+    <style>
+         .contenedor{
+            width: 300px;
+            height: 400px;
+            border: solid 2px;
+            margin: auto;
+            background-image: url(src/html.jfif);
+            background-size:cover;
+            
+        }
+        .vermas{
+            background: black;
+            height: 0px;
+            overflow: hidden;
+            color: aliceblue;
+            padding: 10px;
+            margin-top: 290px;
+            opacity: 0;
+            transition: opacity 1s, height 1s;
+        }
+        .vermas p{
+            background: red;
+            text-align: center;
+            cursor: pointer;
+        }
+        .contenedor:hover .vermas{
+            opacity: 1;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="vermas">
+            Este es una imagen de un curso de programación
+            <p>Ver mas</p>
+
+        </div>
+    </div>
+</body>
+</html>

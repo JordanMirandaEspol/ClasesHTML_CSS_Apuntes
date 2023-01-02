@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Propiedades CSS - Tamaños</title>
+    <style>
+        .caja{
+            width: 500px;
+            height: 400px;
+            border: solid 2px #D7D7D7;
+            margin: auto;
+            margin-top: 100px;
+            /*Gradiente solo dentro de los background*/
+            /*Orientación puede se en grados usando deg*/
+            
+            background-image:-webkit-linear-gradient(left bottom, black, white, rgba(0, 255, 255, 0.407));
+            /*Para que funcione en mozilla en lugar de webkitt se usa moz*/
+            background-image:-moz-linear-gradient(left bottom, black, white, rgba(0, 255, 255, 0.407));
+             /*Para que funcione en internet explorer en lugar de webkitt se usa moz*/
+             background-image:-ms-linear-gradient(left bottom, black, white, rgba(0, 255, 255, 0.407));
+
+
+        }
+
+    </style>
+   
+</head>
+<body>
+   <div class="caja">
+   </div>
+</body>
+</html>

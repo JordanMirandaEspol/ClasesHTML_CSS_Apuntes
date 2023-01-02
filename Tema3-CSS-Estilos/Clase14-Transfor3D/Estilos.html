@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Propiedades CSS - Tamaños</title>
+    <style>
+        .contenedor{
+            width: 300px;
+            margin: auto;
+            margin-top: 50px;
+        }
+        .contenedor img{
+            width: 100%;
+            box-shadow: gray 5px 5px 5px;
+
+        }
+        /*hover es para cuando se pase el mouse encima*/
+        .contenedor img:hover{
+            width: 100%;
+            box-shadow: gray 5px 5px 5px;
+            /*scale3d(x, y, z) – 
+            Esta función asigna una nueva escala al elemento en un espacio 3D.
+            rotate3d(x, y, z, ángulo) – 
+            Esta función rota el elemento en un ángulo y sobre un eje específico.
+            translate3d(x, y, z) – 
+            Esta función mueve el elemento a una nueva posición en el espacio 3D.
+            perspective(valor) – 
+            Esta función agrega un efecto de profundidad a la escena incrementando el tamaño del lado del elemento cercano al espectador.
+*/
+            transform: translate3d(10px,30px,500px);
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <img src="src/html.jfif" alt="">
+    </div>
+</body>
+</html>

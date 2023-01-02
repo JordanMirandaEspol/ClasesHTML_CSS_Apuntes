@@ -1,0 +1,17 @@
+#contenedor{
+    border: solid 2px;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    /*background-color: aqua;*/
+    background-image: url(../src/html.jfif);
+    background-repeat: repeat-y;/* Se repite eje y , no-repeat permite que no se repita*/
+    background-position: right;
+    background-size: cover;/*Cover tiene la funcion de hacer que la imagen cubra todo el elemento*/
+    background-attachment: fixed;/*Fixed Hace la imagen estatica*/
+    background: url(../src/html.jfif) no-repeat, fixed, content-box;
+}
+#contenedor{
+    height: 1200px;
+
+}

@@ -1,0 +1,23 @@
+section{
+    color: aquamarine;
+}
+p{
+    color: blueviolet;
+}
+li{
+    color: #000;
+}
+header{
+    color: brown;
+}
+/* Aplicar estilo a la etiqueta que pertenece a la etiqueta p que pertenece
+a la etiqueta padre section */
+
+section>p{
+    color:springgreen;
+}
+/* Aplicar estilo a la etiqueta que va despues del h2 */
+h2 + li{
+    background: #000;
+    color: aliceblue;
+}

@@ -1,0 +1,10 @@
+#general{
+    border: solid 2px;
+}
+.arial{
+    font-family: Arial;
+}
+.rojo{
+    background: red;
+    color: white;
+}

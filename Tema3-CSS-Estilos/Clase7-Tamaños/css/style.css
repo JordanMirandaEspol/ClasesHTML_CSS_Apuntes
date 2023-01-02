@@ -1,0 +1,30 @@
+	
+section{
+    background: #000000;
+}
+ 
+section div{
+    width:500px;
+    height:200px;
+    /*overflow:scroll;
+    overflow-x: scroll;*/
+    margin: auto;
+    /*margin:10px 10px 10px 10px;
+    margin-left:;
+    margin-right:;
+    margin-bottom:;
+    margin-top:;*/
+    padding:10px 100px 10px 10px;
+    padding-left:;
+    padding-right: ;
+    padding-bottom: ;
+    padding-top: ; 
+}
+ 
+#uno{
+    background: #F48080;
+}
+ 
+#dos{
+    background: #96EFCF;
+}
