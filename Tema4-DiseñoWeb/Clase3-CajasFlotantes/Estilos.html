@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cajas Flotantes</title>
+    <style>
+        section.info{
+            background: red;
+        }
+        .caja{
+            width: 100px;
+            height: 100px;
+            background: gray;
+            border: solid 1px;
+            float: left;
+
+        }
+        .flotarderecha{
+            float: right;
+        }
+        .flotarizquierda{
+            float: left;
+        }
+        .restaurar{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+     <section class="info">
+        <div class="caja flotarizquierda"></div>
+        <div class="caja flotarizquierda"></div>
+        <div class="caja flotarderecha"></div>
+        <div class="caja flotarderecha"></div>
+        <div class="restaurar"></div>
+     </section>
+</body>
+</html>

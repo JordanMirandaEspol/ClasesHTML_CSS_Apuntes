@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Posicionamiento absoluto</title>
+
+    <style>
+        .caja{
+            width: 200px;
+            margin: auto;
+        }
+        .caja:hover .footer{
+            opacity: .8;
+            
+            
+        }
+       /* .header{
+            width: 200px;
+            height: 400px;
+            background: red;
+            border: solid 2px;
+        }*/
+        /*z-index: Se usa cuando se tiene varios elementos
+        sobrepuestos y saber cual se muestra en la parte de adelante*/
+        .header img{
+            width: 100%;
+            border: solid 2px;
+        }
+        .footer{
+            width: 193px;
+            background: white;
+            opacity: 1;
+            position: relative;
+            padding: 4px;
+            border: solid 2px;
+            text-align: center;
+            top: -64px;
+            transition: opacity .4s;
+                }
+    </style>
+</head>
+<body>
+     <div class="caja">
+        <div class="header">
+            <img src="src/html.jfif" alt="">
+        </div>
+        <div class="footer">
+            <p> Esta es una imagen de Html</p>
+        </div>
+     </div>
+</body>
+</html>
